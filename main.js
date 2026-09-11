@@ -8,6 +8,11 @@ let secondFaqText = document.querySelector(".second-faq-text");
 let thirdFaqText = document.querySelector(".third-faq-text");
 let fourthFaqText = document.querySelector(".fourth-faq-text");
 
+let firstFaq = document.querySelector(".mentor-help");
+let secondFaq = document.querySelector(".mentor-free");
+let thirdFaq = document.querySelector(".mentor-project");
+let fourthFaq = document.querySelector(".mentor-challenge");
+
 const icon1 = document.querySelector(".first-faq-image img");
 const icon2 = document.querySelector(".second-faq-image img");
 const icon3 = document.querySelector(".third-faq-image img");
@@ -34,7 +39,22 @@ function show() {
   }
 }
 
+function tap() {
+  if (firstFaqText.style.display === "flex") {
+    firstFaqText.style.display = "none";
+    reset();
+  } else {
+    reset();
+    firstFaqText.style.display = "flex";
+    secondFaqText.style.display = "none";
+    thirdFaqText.style.display = "none";
+    fourthFaqText.style.display = "none";
+    icon1.src = "images/icon-minus.svg";
+  }
+}
+
 showbut.addEventListener("click", show);
+firstFaq.addEventListener("click", tap);
 
 function show2() {
   if (secondFaqText.style.display === "flex") {
@@ -50,7 +70,22 @@ function show2() {
   }
 }
 
+function tap2() {
+  if (secondFaqText.style.display === "flex") {
+    secondFaqText.style.display = "none";
+    reset();
+  } else {
+    reset();
+    firstFaqText.style.display = "none";
+    secondFaqText.style.display = "flex";
+    thirdFaqText.style.display = "none";
+    fourthFaqText.style.display = "none";
+    icon2.src = "images/icon-minus.svg";
+  }
+}
+
 showbut2.addEventListener("click", show2);
+secondFaq.addEventListener("click", tap2);
 
 function show3() {
   if (thirdFaqText.style.display === "flex") {
@@ -66,6 +101,21 @@ function show3() {
   }
 }
 
+function tap3() {
+  if (thirdFaqText.style.display === "flex") {
+    thirdFaqText.style.display = "none";
+    reset();
+  } else {
+    reset();
+    firstFaqText.style.display = "none";
+    secondFaqText.style.display = "none";
+    thirdFaqText.style.display = "flex";
+    fourthFaqText.style.display = "none";
+    icon3.src = "images/icon-minus.svg";
+  }
+}
+
+thirdFaq.addEventListener("click", tap3);
 showbut3.addEventListener("click", show3);
 
 function show4() {
@@ -82,4 +132,19 @@ function show4() {
   }
 }
 
+function tap4() {
+  if (fourthFaqText.style.display === "flex") {
+    fourthFaqText.style.display = "none";
+    reset();
+  } else {
+    reset();
+    firstFaqText.style.display = "none";
+    secondFaqText.style.display = "none";
+    thirdFaqText.style.display = "none";
+    fourthFaqText.style.display = "flex";
+    icon4.src = "images/icon-minus.svg";
+  }
+}
+
+fourthFaq.addEventListener("click", tap4);
 showbut4.addEventListener("click", show4);
