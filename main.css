@@ -1,0 +1,191 @@
+body {
+  background-image: url(images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(275, 100%, 97%);
+}
+
+.main-div {
+  width: 470px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: auto;
+  margin-top: 140px;
+  border-radius: 10px;
+}
+
+.main-div-inside {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.star img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.faq {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: hsl(292, 42%, 14%);
+}
+
+.first-faq {
+  margin-bottom: 10px;
+}
+
+.mentor-help {
+  font-weight: 700;
+}
+
+.mentor-help:hover {
+  cursor: pointer;
+  color: hsl(292, 74%, 54%);
+}
+
+.first-faq-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(292, 42%, 14%);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.first-faq-image img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.first-faq-text {
+  font-size: 15px;
+  color: gray;
+  line-height: 18px;
+  display: none;
+}
+
+.first-faq-text:active {
+  display: none;
+}
+
+.second-faq {
+  margin-bottom: 10px;
+}
+
+.mentor-free {
+  font-weight: 700;
+}
+
+.mentor-free:hover {
+  cursor: pointer;
+  color: hsl(292, 74%, 54%);
+}
+
+.second-faq-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(292, 42%, 14%);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.second-faq-head img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.second-faq-text {
+  font-size: 15px;
+  color: gray;
+  line-height: 18px;
+  display: none;
+}
+
+.third-faq {
+  margin-bottom: 10px;
+}
+
+.mentor-project {
+  font-weight: 700;
+}
+
+.mentor-project:hover {
+  cursor: pointer;
+  color: hsl(292, 74%, 54%);
+}
+
+.third-faq-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(292, 42%, 14%);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.third-faq-head img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.third-faq-text {
+  font-size: 15px;
+  color: gray;
+  line-height: 18px;
+  display: none;
+}
+
+.fourth-faq {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+.mentor-challenge {
+  font-weight: 700;
+}
+
+.mentor-challenge:hover {
+  cursor: pointer;
+  color: hsl(292, 74%, 54%);
+}
+
+.fourth-faq-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(292, 42%, 14%);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.fourth-faq-head img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.fourth-faq-text {
+  font-size: 15px;
+  color: gray;
+  line-height: 18px;
+  display: none;
+}
